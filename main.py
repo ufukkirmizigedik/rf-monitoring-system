@@ -25,7 +25,7 @@ def get_serial():
     except Exception:
         return None
 
-AUTHORIZED_SERIAL = "000000008352e58a"
+AUTHORIZED_SERIAL = None  # Set your Raspberry Pi serial number here
 if get_serial() != AUTHORIZED_SERIAL:
     print("⛔ Неразрешённое устройство! Запуск заблокирован.")
     raise SystemExit(1)
