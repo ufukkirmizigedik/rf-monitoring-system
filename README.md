@@ -5,6 +5,12 @@ Designed as a commercial-grade embedded product with a fullscreen touchscreen GU
 
 ---
 
+## Demo
+
+[![Watch the demo](https://img.youtube.com/vi/70yDTlxS74c/0.jpg)](https://youtu.be/70yDTlxS74c)
+
+
+
 ## Features
 
 - 📡 Real-time RF frequency scanning via `hackrf_sweep`
